@@ -1,6 +1,7 @@
     const firstDiv = document.querySelector('.first-step');
     const secondDiv = document.querySelector('.second-step');
     const finalDiv = document.querySelector('.final-step');
+    const date = new Date().toLocaleString();
 
     function go(currentStep,nextStep)
     {
